@@ -1,11 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit';
 
 import { cryptoApi } from '../services/cryptoApi';
-import { cryptoNewsApi } from '../services/cryptoNewsApi';
+import { bingNewsApi } from '../services/bingNewsApi';
 
 export default configureStore({
   reducer: {
     [cryptoApi.reducerPath]: cryptoApi.reducer,
-    [cryptoNewsApi.reducerPath]: cryptoNewsApi.reducer,
+    [bingNewsApi.reducerPath]: bingNewsApi.reducer,
   },
+
+  middleware: (getDefaultMiddleware) =>
+        getDefaultMiddleware().concat(cryptoApi.middleware, bingNewsApi.middleware),
+
 }); 
