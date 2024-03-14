@@ -380,8 +380,7 @@ width: 70%;
 
 
 /* CryptoTimeline.css */
-/* CryptoTimeline.css */
-/* CryptoTimeline.css */
+
 body {
     background: #3da3d5;
     font-family: "Montserrat", sans-serif;
@@ -390,7 +389,7 @@ body {
   }
   
   .title {
-    font-size: 15em;
+    font-size: 4em;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
   }

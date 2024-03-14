@@ -62,6 +62,15 @@ let timelineElements = [
     date: "2020-2021",
     icon: "virus", // Using FontAwesome icon
   },
+  {
+    id: 8,
+    title: "Bitcoin Reaches New All-Time High (as of March 14, 2024)",
+    location: "Global Market",
+    description:
+      "On March 14, 2024, Bitcoin surges to a new all-time high, surpassing its previous record. This recent price movement reflects continued institutional adoption, positive regulatory developments in some regions, and growing mainstream interest. However, the cryptocurrency market remains volatile, and future price fluctuations are expected.",
+    date: "March 14, 2024",
+    icon: "trophy", // Using FontAwesome icon
+  },
 ];
 
 export default timelineElements;

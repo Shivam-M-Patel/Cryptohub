@@ -6,7 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 
 import "react-vertical-timeline-component/style.min.css";
-import { FaBitcoin, FaEthereum, FaExchangeAlt, FaPizzaSlice, FaChartLine, FaMoneyBillAlt, FaVirus } from 'react-icons/fa'
+import { FaBitcoin, FaEthereum, FaExchangeAlt, FaPizzaSlice, FaChartLine, FaMoneyBillAlt, FaVirus, FaTrophy } from 'react-icons/fa'
 
 const getIcon = (icon) => {
   switch(icon) {
@@ -24,6 +24,8 @@ const getIcon = (icon) => {
       return <FaMoneyBillAlt />;
     case 'virus':
       return <FaVirus />;
+    case 'trophy':
+      return <FaTrophy />;
     default:
       return null;
   }
