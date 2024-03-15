@@ -1,7 +1,7 @@
 # Cryptohub: Your One-Stop Shop for Cryptocurrency Information
 
 
-Welcome to Cryptohub! This is a React.js website dedicated to everything about cryptocurrencies. Cryptohub provides users with comprehensive information about various cryptocurrencies, including their price, market cap, daily change, price charts for different time intervals, and the latest news related to cryptocurrencies.
+Welcome to Cryptohub! 🚀 This is a React.js website dedicated to everything about cryptocurrencies. Cryptohub provides users with comprehensive information about various cryptocurrencies, including their price, market cap, daily change, price charts for different time intervals, and the latest news related to cryptocurrencies.
 
 ## Features
 
@@ -42,7 +42,7 @@ cd Cryptohub
 3. # Install dependencies
 npm install
 
-4. Set up API keys:
+4. # Set up API keys:
 Obtain API keys for Coinranking API and Bing News Search API.
 Replace placeholders in the code with your actual API keys.
 
@@ -54,3 +54,7 @@ npm start
 
    
 ## Demo
+![Demo GIF](./demo/Cryptohub.gif)
+
+
+Explore the world of cryptocurrencies with Cryptohub! 🌟 If you have any questions or encounter any issues, don't hesitate to reach out.
