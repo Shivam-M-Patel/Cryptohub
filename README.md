@@ -1,4 +1,4 @@
-# Cryptohub: Your One-Stop Shop for Cryptocurrency Information
+# Cryptohub: Stay Ahead of the Crypto Curve
 
 
 Welcome to Cryptohub! 🚀 This is a React.js website dedicated to everything about cryptocurrencies. Cryptohub provides users with comprehensive information about various cryptocurrencies, including their price, market cap, daily change, price charts for different time intervals, and the latest news related to cryptocurrencies.
