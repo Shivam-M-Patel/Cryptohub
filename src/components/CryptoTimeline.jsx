@@ -6,12 +6,12 @@ import {
 } from "react-vertical-timeline-component";
 
 import "react-vertical-timeline-component/style.min.css";
-import { FaBitcoin, FaEthereum, FaExchangeAlt, FaPizzaSlice, FaChartLine, FaMoneyBillAlt, FaVirus, FaTrophy } from 'react-icons/fa'
+import { FaBtc, FaEthereum, FaExchangeAlt, FaPizzaSlice, FaChartLine, FaMoneyBillAlt, FaVirus, FaTrophy } from 'react-icons/fa';
 
 const getIcon = (icon) => {
   switch(icon) {
     case 'bitcoin':
-      return <FaBitcoin />;
+      return <FaBtc />;
     case 'ethereum':
       return <FaEthereum />;
     case 'exchange':
@@ -40,10 +40,6 @@ const CryptoTimeline = () => {
       <VerticalTimeline>
         {timelineElements.map((element) => {
           let isalertnativeIcon = ["bitcoin", "pizza", "chart", "virus"].includes(element.icon);
-          let showButton =
-            element.buttonText !== undefined &&
-            element.buttonText !== null &&
-            element.buttonText !== "";
 
           return (
             <VerticalTimelineElement
@@ -51,7 +47,7 @@ const CryptoTimeline = () => {
               date={element.date}
               dateClassName="date"
               iconStyle={isalertnativeIcon ? leftIconStyles : rightIconStyles}
-              icon={getIcon(element.icon) }
+              icon={getIcon(element.icon)}
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
