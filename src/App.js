@@ -23,9 +23,9 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2024
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2024 {"\t"}
           <Link to="/">
-            Cryptoverse Inc.
+            Cryptohub Inc.
           </Link> <br />
           All Rights Reserved.
         </Typography.Title>

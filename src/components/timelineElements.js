@@ -59,7 +59,7 @@ let timelineElements = [
     location: "Global Market",
     description:
       "The COVID-19 pandemic in 2020 leads to renewed interest in cryptocurrency, with Bitcoin and other digital assets seen as potential hedges against economic uncertainty. Increased adoption by institutional investors further fuels price increases.",
-    date: "2020-2021",
+    date: "2020 - 2021",
     icon: "virus", // Using FontAwesome icon
   },
   {

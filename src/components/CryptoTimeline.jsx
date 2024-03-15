@@ -35,7 +35,7 @@ const CryptoTimeline = () => {
   let rightIconStyles = { background: "#f9c74f" };
 
   return (
-    <div>
+    <div className="timeline-body">
       <h1 className="title">Timeline</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
@@ -51,7 +51,7 @@ const CryptoTimeline = () => {
               date={element.date}
               dateClassName="date"
               iconStyle={isalertnativeIcon ? leftIconStyles : rightIconStyles}
-              icon={getIcon(element.icon)}
+              icon={getIcon(element.icon) }
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
@@ -60,16 +60,7 @@ const CryptoTimeline = () => {
                 {element.location}
               </h5>
               <p id="description">{element.description}</p>
-              {showButton && (
-                <a
-                  className={`button ${
-                    isalertnativeIcon ? "left" : "right"
-                  }`}
-                  href="/"
-                >
-                  {element.buttonText}
-                </a>
-              )}
+              
             </VerticalTimelineElement>
           );
         })}
