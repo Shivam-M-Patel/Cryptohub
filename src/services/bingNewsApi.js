@@ -9,7 +9,7 @@ const createBingNewsSearchRequest = (url) => ({
 
 export const bingNewsApi = createApi({
   reducerPath: 'bingNewsApi',
-  baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_NEWS_API_URL }), // Bing News Search API base URL
+  baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_NEWS_API_URL }), // Bing News Search API base URL 
   endpoints: (builder) => ({
     getCryptoNews: builder.query({
       query: ({ newsCategory, count }) => createBingNewsSearchRequest(`?q=${newsCategory}&safeSearch=Off&textFormat=Raw&freshness=Day&count=${count}`),
