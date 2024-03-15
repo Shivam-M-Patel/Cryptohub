@@ -26,7 +26,7 @@ Welcome to Cryptohub! 🚀 This is a React.js website dedicated to everything ab
    - Provides comprehensive cryptocurrency data such as price, market cap, and daily change.
    - Offers historical price data for generating price charts.
 
-2. **[Bing News Search](https://www.microsoft.com/en-us/bing/apis/bing-news-search-api&target=_blank) API from Azure**:
+2. **[Bing News Search](https://www.microsoft.com/en-us/bing/apis/bing-news-search-api?param1=value1&target=_blank) API from Azure**:
    - Fetches news articles related to cryptocurrencies.
    - Allows filtering to get specific news for particular cryptocurrencies.
 
