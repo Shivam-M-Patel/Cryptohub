@@ -22,7 +22,7 @@ export const cryptoApi = createApi({
       query: ({ coinId, timeperiod }) => createRequest(`coin/${coinId}/history?timeperiod=${timeperiod}`),
     }),
 
-    // Note: DOESNT WORK - need premium plan
+    // Note: DOESNT WORK - need premium plan to get exchange details
     getExchanges: builder.query({
       query: () => createRequest('/exchanges'),
     }),
